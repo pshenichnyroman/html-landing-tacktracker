@@ -1,0 +1,153 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --letter-color: #18191f;
+  --header-border: #e5e9f2;
+
+  --lc: var(--letter-color);
+  --hb: var(--header-border);
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid var(--hb);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+
+  max-width: 1140px;
+  padding: 17px 15px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.nav-link:hover {
+  color: #8c30f5;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--lc);
+}
+
+.GooglePlay {
+  padding: 0 0 0 177px;
+}
+
+.AppStore {
+  padding: 0 0 0 12px;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 197px auto;
+}
+
+.container-left {
+  max-width: 540px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: var(--lc);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--lc);
+  padding: 16px 0 0 0;
+}
+
+.button {
+  width: 284px;
+  height: 62px;
+  background: #8c30f5;
+  border-radius: 8px;
+  margin: 32px 0 0 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 16px 35px;
+  text-align: center;
+  transition: opacity 0.2s ease-in;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-link {
+  color: #fff;
+}
+
+.container-right {
+  width: 100%;
+}
+
+.footer {
+  background-color: #0b0d17;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1140px;
+  padding: 19px 0;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.social-item {
+  width: 34px;
+  height: 34px;
+  /* Opacity: 10%; */
+  /* width: 100%; */
+}
